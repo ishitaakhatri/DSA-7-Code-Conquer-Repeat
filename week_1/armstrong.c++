@@ -4,7 +4,6 @@
 
 // Note: Return "true" if it is an Armstrong number else return "false".
 
-
 class Solution {
   public:
     string armstrongNumber(int n) {
