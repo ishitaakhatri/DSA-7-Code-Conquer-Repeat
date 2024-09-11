@@ -34,14 +34,14 @@ int main()
     int n;
     cout << "Enter the number of elements: ";
     cin >> n;
-    vector<int> arr(n);
+    int arr[n];
 
     cout << "Enter the elements of the array: ";
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
 
-    quick_sort(arr.data(), 0, n - 1);
+    quick_sort(arr, 0, n - 1);
 
     cout << "Sorted array: ";
     for (int i = 0; i < n; i++) {
